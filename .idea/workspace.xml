@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d90b37b-6ab7-40a2-8ea2-1824e8d3f4ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/voc_conversion_scripts/voc_to_hdf5.py" beforeDir="false" afterPath="$PROJECT_DIR$/voc_conversion_scripts/voc_to_hdf5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py" beforeDir="false" afterPath="$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voc_conversion_scripts/voc_to_hdf5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            <state relative-caret-position="-1353">
+              <caret line="153" column="9" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="9" />
               <folding>
                 <element signature="e#306#321#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -55,6 +65,7 @@
       <list>
         <option value="$PROJECT_DIR$/captions_train2017.json" />
         <option value="$PROJECT_DIR$/voc_conversion_scripts/voc_to_hdf5.py" />
+        <option value="$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py" />
       </list>
     </option>
   </component>
@@ -110,6 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -142,27 +154,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567753523207</updated>
-      <workItem from="1567753529213" duration="2255000" />
+      <workItem from="1567753529213" duration="4156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2255000" />
+    <option name="totallyTimeSpent" value="4156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2932862" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="File Transfer" visible="true" weight="0.28268552" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.28268552" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -209,13 +221,23 @@
     <entry file="file://$PROJECT_DIR$/000000000001.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/1795499191/249573927/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/voc_conversion_scripts/voc_to_hdf5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        <state relative-caret-position="-1353">
+          <caret line="153" column="9" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="9" />
           <folding>
             <element signature="e#306#321#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
         </state>
       </provider>
     </entry>

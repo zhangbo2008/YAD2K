@@ -26,7 +26,7 @@ id": 47948}
 
 import argparse
 import os
-import xml.etree.ElementTree as ElementTree
+import xml.etree.ElementTree as ElementTree #解析xml
 
 import h5py
 import numpy as np

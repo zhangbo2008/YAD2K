@@ -103,6 +103,7 @@ def convert_to_example(image_data, boxes, filename, height, width):
     example : protobuf
         Tensorflow Example protobuf containing image and bounding boxes.
     """
+    #就是拼成一个batch
     box_classes = [b['class'] for b in boxes]
     box_ymin = [b['y_min'] for b in boxes]
     box_xmin = [b['x_min'] for b in boxes]

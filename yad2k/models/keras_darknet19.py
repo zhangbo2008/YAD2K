@@ -11,6 +11,11 @@ from keras.regularizers import l2
 from ..utils import compose
 
 # Partial wrapper for Convolution2D with static default argument.
+#darknet 是一个conv2d的模板,所以用keras也可以实现darknet
+#所以，简单总结functools.partial的作用就是，把一个函数的某些参数给固定住（也就是设置默认值），返回一个新的函数，调用这个新函数会更简单。
+
+#就是表示这个函数等价于Conv2D里面padding永远锁定参数是same的这个.
+#对于conv网络,一般都用same,效果好.valid会丢失边缘信息!!!!!!!!!!
 _DarknetConv2D = partial(Conv2D, padding='same')
 
 

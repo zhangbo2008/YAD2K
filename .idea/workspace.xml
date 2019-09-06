@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d90b37b-6ab7-40a2-8ea2-1824e8d3f4ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/voc_conversion_scripts/voc_to_hdf5.py" beforeDir="false" afterPath="$PROJECT_DIR$/voc_conversion_scripts/voc_to_hdf5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py" beforeDir="false" afterPath="$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yad2k/models/keras_darknet19.py" beforeDir="false" afterPath="$PROJECT_DIR$/yad2k/models/keras_darknet19.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +45,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+            <state relative-caret-position="-2478">
+              <caret line="137" column="45" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yad2k/models/keras_darknet19.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#40#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/functools.pyi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/1795499191/-137119729/functools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="267" column="13" selection-start-line="267" selection-start-column="13" selection-end-line="267" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -66,6 +95,7 @@
         <option value="$PROJECT_DIR$/captions_train2017.json" />
         <option value="$PROJECT_DIR$/voc_conversion_scripts/voc_to_hdf5.py" />
         <option value="$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py" />
+        <option value="$PROJECT_DIR$/yad2k/models/keras_darknet19.py" />
       </list>
     </option>
   </component>
@@ -113,6 +143,12 @@
               <item name="YAD2K" type="462c0819:PsiDirectoryNode" />
               <item name="yad2k" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="YAD2K" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YAD2K" type="462c0819:PsiDirectoryNode" />
+              <item name="yad2k" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,12 +190,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567753523207</updated>
-      <workItem from="1567753529213" duration="4156000" />
+      <workItem from="1567753529213" duration="5000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4156000" />
+    <option name="totallyTimeSpent" value="5000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -236,8 +272,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voc_conversion_scripts/voc_to_tfrecords.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        <state relative-caret-position="-2478">
+          <caret line="137" column="45" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/1795499191/-137119729/functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="267" column="13" selection-start-line="267" selection-start-column="13" selection-end-line="267" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/functools.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yad2k/models/keras_darknet19.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#40#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
